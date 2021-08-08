@@ -1,13 +1,15 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Intro.md) \| [Próximo (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Intro.md) \| [Próximo (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md)
 
 # 8.2 Manejo de fechas y horas
 
 Esta sección tiene un breve [video introductorio](https://youtu.be/exTngw8oOp0) sobre el módulo `datetime`.
 
+A la documentación de esta módulo se accede haciendo [click aquí](https://docs.python.org/3/library/datetime.html#module-datetime)
+
 
 ## El módulo datetime
 
-A continuación introducimos el módulo `datetime` que permite trabajar con fechas y horas. Este módulo define un nuevo tipo de objeto: `datetime` (sí, con el mismo nombre del módulo), que permite representar un instante temporal (fecha y hora). También  define objetos de tipo `date`  para representar sólo una fecha y de tipo `time` para guardar y trabajar con horarios. Finalmente, en esta breve introducción al módulo `datetime` mencionamos el tipo `timedelta` que se usa para representar diferencias entre instantes de tiempos, es decir, duraciones y trabajar con ellas.
+A continuación introducimos el módulo `datetime` que permite trabajar con fechas y horas. Este módulo define un nuevo tipo de objeto: `datetime` (sí, con el mismo nombre del módulo), que permite representar un instante temporal (fecha y hora). También  define objetos de tipo `date` para representar sólo una fecha y de tipo `time` para guardar y trabajar con horarios. Finalmente, en esta breve introducción al módulo `datetime` mencionamos el tipo `timedelta` que se usa para representar diferencias entre instantes de tiempos, es decir, duraciones y trabajar con ellas.
 
 ### Ejemplo: Obtener fecha y hora actuales
 
@@ -113,11 +115,11 @@ print('Día de la semana:', hoy.weekday()) # va de 0 a 6 empezando en lunes
 
 ## La clase datetime.time
 
-Un objeto de la clase `time` representa la hora local (de como este configurada tu computadora). No nos vamos a meter en esta clase con los [husos horarios](https://es.wikipedia.org/wiki/Huso_horario) (conocido también como timezones), pero si vas a usar datos provistos por otres, es importante que sepas si está expresado en tu hora local, en la hora local de otro lugar o en [UTC](https://es.wikipedia.org/wiki/Tiempo_universal_coordinado).
+Un objeto de la clase `time` representa la hora local (de como este configurada tu computadora). No nos vamos a meter en esta clase con los [husos horarios](https://es.wikipedia.org/wiki/Huso_horario) (conocido también como timezones), pero si vas a usar datos provistos por otros, es importante que sepas si está expresado en tu hora local, en la hora local de otro lugar o en [UTC](https://es.wikipedia.org/wiki/Tiempo_universal_coordinado).
 
 ### Ejemplo: Representar la hora con un objeto `time`
 
-La clase  `time` se usa para representar horarios. A continuación damos algunos ejemplos de constructores de esta clase (un constructor es una forma de construir un objeto de una clase dada, una forma de inicializarlo, digamos).
+La clase `time` se usa para representar horarios. A continuación damos algunos ejemplos de constructores de esta clase (un constructor es una forma de construir un objeto de una clase dada, una forma de inicializarlo, digamos).
 
 ```python
 >>> from datetime import time
@@ -278,7 +280,7 @@ También podés sumar fechas y horarios usando el operador `+`. También podés 
 
 ## Formato para fechas y horas
 
-Hay diversas formas de representar el tiempo, que varían según el lugar, la organización, etc. Por ejemplo, en Argentina solemos usar `dd/mm/yyyy`, mientras que en las culturas anglosajonas  es más común usar `mm/dd/yyyy`.
+Hay diversas formas de representar el tiempo, que varían según el lugar, la organización, etc. Por ejemplo, en Argentina solemos usar `dd/mm/yyyy`, mientras que en las culturas anglosajonas es más común usar `mm/dd/yyyy`.
 
 En Python tenemos los métodos `strftime()` y `strptime()` para manejar esto.
 
@@ -372,14 +374,14 @@ Un conocido canal Argentino tiene por costumbre anunciar la cantidad de días qu
 Escribí un programa que asista a los técnicos del canal indicándoles, al correr el programa el número que deben poner en la placa.
 
 ### Ejercicio 8.3: Fecha de reincorporación
-Si tenés una licencia por xaternidad que empieza el 26 de septiembre de 2020 y dura 200 días, ¿qué día te reincorporás al trabajo?
+Si tenés una licencia por maternidad que empieza el 26 de septiembre de 2020 y dura 200 días, ¿qué día te reincorporás al trabajo?
 
 ### Ejercicio 8.4: Días hábiles
 Escribí una función `dias_habiles(inicio, fin, feriados)` que calcule los días hábiles entre dos fechas dadas. La función debe tener como argumentos el día inicial, el día final, y una lista con las fechas correspondientes a los feriados que haya en ese lapso, y debe devolver una lista con las fechas de días hábiles del período, incluyendo la fecha inicial y la fecha final indicadas. Las fechas de entrada y salida deben manejarse en formato de texto.
 
 Consideramos día hábil a un día que no es feriado ni sábado ni domingo.
 
-Probala entre el 20 de septiembre de 2020  y el 10 de octubre del mismo año, sabiendo que no hubo feriados en el medio.
+Probala entre el 20 de septiembre de 2020 y el 10 de octubre del mismo año, sabiendo que no hubo feriados en el medio.
 Probala entre ese día y fin del 2020 considerando los siguientes feriados de Argentina:
 
 `feriados = ['12/10/2020', '23/11/2020', '7/12/2020', '8/12/2020', '25/12/2020']`

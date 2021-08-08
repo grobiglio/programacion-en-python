@@ -2,13 +2,13 @@
 
 ## Instalación de Python en sus computadoras
 
-Lo único que es fundamental tener instalado para hacer este curso es un  Python 3.6 o más nuevo. El curso no depende de un sistema operativo particular o un entorno de desarrollo específico.
+Lo único que es fundamental tener instalado para hacer este curso es un Python 3.6 o más nuevo. El curso no depende de un sistema operativo particular o un entorno de desarrollo específico.
 
 Con esto aclarado, casi todo el curso involucra aprender a escribir scripts y correr pequeños programas que leen datos de archivos. Por lo tanto, tendrás que asegurarte de estar cómodo trabajando con archivos. Esto involucra principalmente usar un editor de textos para crear programas en Python y poder correrlos desde la terminal.
 
 Las primeras clases vamos a insistir en que usen las herramientas más primitivas, por motivos didácticos. Simplemente un editor de textos y correr el Python desde la línea de comandos. Luego, les sugerimos pasar a un entorno de desarrollo integrado (IDE) más amigable.
 
-Algunos pueden querer hacer este curso usando el entorno de las Jupyter Notebooks. **No lo recomendamos.** A pesar de que estas notebooks son geniales para experimentar, muchos de los ejercicios de este curso están relacionados con la organización de programas. Esto incluye trabajar con funciones, módulos, importar y rehacer código cuyo código fuente puede estar repartido en diferentes archivos. En nuestra experiencia, es difícil reproducir este tipo de entorno de trabajo en una notebook Jupyter.
+Algunos pueden querer hacer este curso usando el entorno de las Jupyter Notebooks. **No lo recomendamos.** A pesar de que estas notebooks son geniales para experimentar, muchos de los ejercicios de este curso están relacionados con la organización de programas. Esto incluye trabajar con funciones, módulos, importar y rehacer código cuyo código fuente puede estar repartido en diferentes archivos. En nuestra experiencia, es difícil reproducir este tipo de entorno de trabajo en una notebook [Jupyter](https://jupyter.org/).
 
 ## Repositorio 
 
