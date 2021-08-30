@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Python)](01_Python.md) \| [Próximo (3 Números)](03_Numeros.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Anterior (1 Python)](01_Python.md) \| [Próximo (3 Números)](03_Numeros.md)
 
 # 1.2 Un primer programa
 
@@ -18,7 +18,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
+Los programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
 
 ### Modo interactivo
 
@@ -74,11 +74,12 @@ Los programas se guardan en archivos `.py`.
 print('hello world')
 ```
 
-Podés crear estos archivos con tu editor de texto favorito. Más adelante vamos a proponerles usar el `spyder` que es un entorno de desarrollo integrado (IDE por «Integrated Development Environment», entorno de desarrollo integrado) que permite tener en la pantalla un editor y un intérprete al mismo tiempo, entre otras cosas. Pero por ahora usemos el block de notas, el gedit o tu editor favorito para seguir estos ejemplos.
+Podés crear estos archivos con tu editor de texto favorito. Mi editor favorito es [Visual Studio Code](https://code.visualstudio.com/). En [este video](https://youtu.be/cDuvyi5vRv4) encontrarás orientación sobre 7 editores de texto que podés usar.
+Más adelante vamos a proponerles usar el `spyder` que es un entorno de desarrollo integrado (IDE por «Integrated Development Environment», entorno de desarrollo integrado) que permite tener en la pantalla un editor y un intérprete al mismo tiempo, entre otras cosas. Pero por ahora usemos el block de notas, el gedit o tu editor favorito para seguir estos ejemplos.
 
 ### Ejecutar programas
 
-Para ejecutar un programa, correlo en la terminal con el comando  `python` seguido del nombre del archivo a ejecutar. Por ejemplo, en una línea de comandos Unix (por ejemplo Ubuntu):
+Para ejecutar un programa, correlo en la terminal con el comando `python` seguido del nombre del archivo a ejecutar. Por ejemplo, en una línea de comandos Unix (por ejemplo Ubuntu):
 
 ```bash
 bash % python hello.py
@@ -250,7 +251,7 @@ La indentación agrupa los comandos siguientes como las operaciones a repetir:
     num_billetes = num_billetes * 2
 ```
 
-Como el comando  `print()` del final no está indentado, no pertenece al ciclo. La línea en blanco que dejamos entre ambos solo está para facilitar la lectura y no afecta la ejecución.
+Como el comando `print()` del final no está indentado, no pertenece al ciclo. La línea en blanco que dejamos entre ambos solo está para facilitar la lectura y no afecta la ejecución.
 
 ### Indentando adecuadamente
 
@@ -295,7 +296,7 @@ El comando `elif` viene de *else, if* y puede traducirse como "si no se da la co
 
 ### Imprimir en pantalla
 
-La función  `print` imprime una línea de texto con el valor pasado como parámetro.
+La función `print` imprime una línea de texto con el valor pasado como parámetro.
 
 ```python
 print('Hello world!') # Imprime 'Hello world!'
@@ -389,7 +390,7 @@ print('Cantidad de billetes', num_billetes)
 print('Altura final', num_billetes * grosor_billete)
 ```
 
-Copiá y pegá el código que aparece arriba en un nuevo archivo llamado `obelisco.py`. Cuando ejecutes el código vas a obtener el siguiente  mensaje de error que hace que el programa se detenga:
+Copiá y pegá el código que aparece arriba en un nuevo archivo llamado `obelisco.py`. Cuando ejecutes el código vas a obtener el siguiente mensaje de error que hace que el programa se detenga:
 
 ```code
 Traceback (most recent call last):
@@ -442,9 +443,8 @@ Tu programa debería generar una tabla que se parezca a esta:
 ```
 
 ### Ejercicio 1.6: Saludos
-Escribí un programa llamado `saludo.py` que pregunte el nombre de le usuarie, imprima un saludo (por ejemplo, "Hola, Juana") y termine.
+Escribí un programa llamado `saludo.py` que pregunte el nombre del usuario, imprima un saludo (por ejemplo, "Hola, Juana") y termine.
 
 
 
 [Contenidos](../Contenidos.md) \| [Anterior (1 Python)](01_Python.md) \| [Próximo (3 Números)](03_Numeros.md)
-

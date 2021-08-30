@@ -1,4 +1,4 @@
-# Curso de programación en Python
+:white_check_mark: # Curso de programación en Python
 
 ## Contenidos
 

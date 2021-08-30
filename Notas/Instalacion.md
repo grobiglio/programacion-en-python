@@ -1,4 +1,4 @@
-# Instalación del software y organización interna del curso
+:white_check_mark: # Instalación del software y organización interna del curso
 
 ## Instalación de Python en sus computadoras
 

@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Próximo (2 Estructuras y funciones)](../02_Estructuras_y_Funciones/00_Resumen.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Próximo (2 Estructuras y funciones)](../02_Estructuras_y_Funciones/00_Resumen.md)
 
 # 1. Introducción a Python
 El objetivo de esta primera clase es introducir algunos conceptos básicos de Python. Comenzando desde cero vas a aprender a editar, ejecutar y debuguear pequeños programas. También presentamos algunos tipos de datos de Python: número enteros, números de punto flotante, cadenas y listas.

@@ -4,7 +4,7 @@
 
 La  biblioteca Pandas es una extensión de NumPy para manipulación y análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas de datos (numéricos y de otros tipos) y series temporales. Se distribuye como software libre.
 
-Ésta es una breve introducción a [Pandas](https://pandas.pydata.org/docs/getting_started/index.html). Para información más completa, te recomendamos consultar [la documentación oficial](https://pandas.pydata.org/docs/user_guide/10min.html).
+Ésta es una breve introducción a [Pandas](https://pandas.pydata.org/docs/getting_started/index.html). Para información más completa, te recomendamos consultar [la documentación oficial](https://pandas.pydata.org/docs/index.html).
 
 Esta biblioteca tiene dos tipos de datos fundamentales: los `DataFrames` que almacenan tablas de datos y las `series` que contienen secuencias de datos.
 

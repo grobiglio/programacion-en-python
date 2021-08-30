@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Próximo (2 Un primer programa)](02_Hello_world.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Próximo (2 Un primer programa)](02_Hello_world.md)
 
 # 1.1 Python
 
@@ -10,7 +10,7 @@ Python fue creado por Guido van Rossum a principios de la década del '90 y lo n
 
 ### ¿Dónde conseguir Python?
 
-Te recomendamos instalar Python 3.6 o más nuevo. En la documentación previa  hablamos sobre [cómo instalar Python para este curso](../../Notas/Instalacion.md).
+Te recomendamos instalar Python 3.6 o más nuevo. En la documentación previa hablamos sobre [cómo instalar Python para este curso](../../Notas/Instalacion.md).
 
 ### ¿Para qué fue creado Python?
 
@@ -32,7 +32,7 @@ hello world
 
 Si es la primera vez que ves una consola o terminal, sería conveniente que pares aquí, leas [un tutorial corto](https://tutorial.djangogirls.org/es/intro_to_command_line/) sobre cómo usar la consola de tu sistema operativo y luego vuelvas para seguir leyendo.
 
-Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotros es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
+Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotros es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que acabamos de explicar.
 
 ## Ejercicios
 
@@ -70,7 +70,7 @@ La documentación oficial en inglés de Python se encuentra en <http://docs.pyth
 ### Ejercicio 1.3: Copy-paste
 Este curso está estructurado como una serie de páginas web tradicionales en las que les incentivamos a probar interactivamente fragmentos de código en sus intérpretes de Python **escribiéndolos a mano**. Si estás aprendiendo Python por primera vez, esta forma "lenta" de hacer las cosas es la que recomendamos. Vas a entender mejor yendo lento y escribiendo los comandos vos mismo mientras pensás en lo que estás tipeando.
 
-Es importante que tipées los comandos a mano. Para usar copy-paste quizás mejor ni hacerlos. Parte del objetivo de los ejercicios es entrenar tus manos, tus ojos y tu cabeza en leer, escribir y mirar código tal como dice [Zed Shaw en su libro](https://learntocodetogether.com/learn-python-the-hard-way-free-ebook-download/). Usar copy-paste excesivamente es como hacerte trampa a vos misme. Es como tratar de aprender a tocar la guitarra escuchando discos: es probable que no aprendas nunca.
+Es importante que tipées los comandos a mano. Para usar copy-paste quizás mejor ni hacerlos. Parte del objetivo de los ejercicios es entrenar tus manos, tus ojos y tu cabeza en leer, escribir y mirar código tal como dice [Zed Shaw en su libro](https://learntocodetogether.com/learn-python-the-hard-way-free-ebook-download/). Usar copy-paste excesivamente es como hacerte trampa a vos mismo. Es como tratar de aprender a tocar la guitarra escuchando discos: es probable que no aprendas nunca.
 
 Si, de todas formas, en algún momento necesitás hacer "copy-paste" de fragmentos de código, seleccioná el código que viene luego del símbolo `>>>` y hasta la siguiente linea en blanco o el siguiente `>>>` (el que aparezca primero). Seleccioná "copy" en el navegador (Ctrl-C), andá al intérprete de Python y poné "paste" (Ctrl-V o Crtl-shift-V) para pegarlo. Para ejecutar el código es posible que tengas que apretar "Enter" luego de pegarlo.
 
@@ -96,6 +96,4 @@ Usá copy-paste para ejecutar los siguientes comandos:
 Advertencia: Cuando tenés algo como el código de arriba, no es posible copiar y pegar en el entorno básico de Python más de un comando por vez. El símbolo `>>>` lo impide.
 
 
-
 [Contenidos](../Contenidos.md) \| [Próximo (2 Un primer programa)](02_Hello_world.md)
-
