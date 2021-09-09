@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Manejo de fechas y horas)](02_Fechas.md) \| [Próximo (4 Ordenar archivos en Python)](04_Ordenando_archivos.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Anterior (2 Manejo de fechas y horas)](02_Fechas.md) \| [Próximo (4 Ordenar archivos en Python)](04_Ordenando_archivos.md)
 
 # 8.3 Manejo de archivos y carpetas
 
@@ -8,12 +8,13 @@ Esta sección tiene un breve [video introductorio](https://youtu.be/SeaML1O8PaI)
 
 Una carpeta o directorio es una colección de archivos y directorios. Python tiene el módulo `os` que ofrece muchas herramientas útiles para trabajar con directorios y archivos.
 
-En esta sección vas a aprender cómo crear un directorio, renombrarlo, listar todos sus archivos y subdirectorios, etc.
+Haciendo [click aquí](https://docs.python.org/3/library/os.html) podrás acceder a la documentación del módulo `os`.
 
+En esta sección vas a aprender cómo crear un directorio, renombrarlo, listar todos sus archivos y subdirectorios, etc.
 
 ### Obtener el directorio actual
 
-Para obtener el directorio de trabajo actual, usamos el función `getcwd()` (_get current working directory_) del módulo `os`.
+Para obtener el directorio de trabajo actual, usamos la función `getcwd()` (_get current working directory_) del módulo `os`.
 
 Esta función te devuelve el directorio actual en forma de cadena.
 
@@ -25,8 +26,6 @@ Esta función te devuelve el directorio actual en forma de cadena.
 ```
 
 Es importante ver que la salida dependerá del sistema operativo que estés usando. Por ejemplo, en Windows podrías obtener algo así: `C:\\usuario\\ejercicios_python`.
-
-
 
 ### Cambiar el directorio de trabajo
 
@@ -133,11 +132,9 @@ La carpeta 'carpeta' ahora se encuentra en 'Ejercicios', y no dentro de 'Ejercic
 
 **Ojo**: `rename()` funciona cuando el archivo (o directorio) no se cambia de disco (o más específicamente de una partición). Si querés mover un archivo del disco a un pendrive, por ejemplo, lo correcto es copiar el archivo al pendrive y luego borrarlo del disco. `rename()` no hace esto: no copia y borra, simplemente cambia el nombre. Para renombrar en caso que se pueda o copiar y borrar si lo primero no es posible, podés usar la función `move()` del módulo `shutil`. Este módulo es de más alto nivel y usa las primitivas de bajo nivel del módulo `os`. Al usar `os` tenemos un control más estricto de las operaciones. Las funciones de `shutil` pueden resultar más cómodas, pero en el camino pueden invocar a diversas funciones de bajo nivel del módulo `os`.
 
-
 ## Eliminar un directorio o un archivo
 
 > :warning: **A continuación usaremos comandos que borran archivos sin pasar por ninguna papelera de reciclaje. Estas acciones no pueden deshacerse**: Usar con precaución, _un gran poder conlleva una gran responsabilidad_.
-
 
 Podés eliminar un archivo usando la función `remove()`. También podés eliminar un directorio vacío usando `rmdir()`.
 
@@ -205,7 +202,6 @@ for root, dirs, files in os.walk("."):
       print(os.path.join(root, name))
 ```
 
-
 ## Cambiar atributos de un archivo
 
 Dependiendo del sistema operativo, un archivo puede tener asociadas diferentes fechas (de creación original, de modificación del contenido, de cambio en sus metadatos, de acceso para lectura).
@@ -235,6 +231,4 @@ print(time.ctime(stats_archivo.st_atime))
 
 Si mirás la información del archivo `./rebotes.py` desde tu gestor de archivos deberías ver las modificaciones.
 
-
 [Contenidos](../Contenidos.md) \| [Anterior (2 Manejo de fechas y horas)](02_Fechas.md) \| [Próximo (4 Ordenar archivos en Python)](04_Ordenando_archivos.md)
-
