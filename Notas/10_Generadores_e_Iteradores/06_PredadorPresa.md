@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Más sobre generadores)](05_Mas_generadores.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Más sobre generadores)](05_Mas_generadores.md)
 
 # 10.6 Predador Presa
 
@@ -522,5 +522,5 @@ p_{comer} = p_{leon}(edadLeon) \times (1 - p_{antilope}(edadAntilope))
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Más sobre generadores)](05_Mas_generadores.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Más sobre generadores)](05_Mas_generadores.md)
 

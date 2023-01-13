@@ -419,5 +419,5 @@ Queremos hacer un traductor que cambie las palabras masculinas de una frase por 
 Probá tu código con 'Los hermanos sean unidos porque ésa es la ley primera', '¿cómo transmitir a los otros el infinito Aleph?' y 'Todos, tu también'. ¿Qué falla en esta última? (¡no hace falta que lo resuelvas!)
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (4 Cadenas)](04_Strings.md) \| [Próximo (6 Cierre de la clase)](06_CierreClase.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Cadenas)](04_Strings.md)
 

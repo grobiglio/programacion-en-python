@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Impresión con formato)](05_Formato.md) \| [Próximo (7 Cierre de la clase)](07_CierreClase.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Impresión con formato)](05_Formato.md)
 
 # 3.6 Arbolado porteño
 
@@ -104,5 +104,5 @@ Volvé a combinar las funciones anteriores para escribir la función `especie_pr
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Impresión con formato)](05_Formato.md) \| [Próximo (7 Cierre de la clase)](07_CierreClase.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Impresión con formato)](05_Formato.md)
 

@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Introducción a Pandas)](05_Pandas.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Introducción a Pandas)](05_Pandas.md)
 
 # 8.6 Series temporales
 
@@ -494,5 +494,5 @@ def reparar(df):
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Introducción a Pandas)](05_Pandas.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Introducción a Pandas)](05_Pandas.md)
 

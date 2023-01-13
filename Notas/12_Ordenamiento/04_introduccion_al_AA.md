@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Divide y reinarás)](03_Divide_and_Conquer.md) \| [Próximo (5 Cierre de la clase de Ordenamiento)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Divide y reinarás)](03_Divide_and_Conquer.md)
 
 # 12.4 Algoritmos de clasificación supervisada
 
@@ -277,5 +277,5 @@ Imprimí el promedio de los scores obtenidos y guardá el código en el archivo 
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Divide y reinarás)](03_Divide_and_Conquer.md) \| [Próximo (5 Cierre de la clase de Ordenamiento)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Divide y reinarás)](03_Divide_and_Conquer.md)
 

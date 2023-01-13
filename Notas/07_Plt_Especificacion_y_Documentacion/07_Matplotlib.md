@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (6 Estilos de codeo)](06_Estilo.md) \| [Próximo (8 Cierre de la clase)](08_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (6 Estilos de codeo)](06_Estilo.md)
 
 # 7.7 La biblioteca matplotlib
 
@@ -419,5 +419,5 @@ plt.scatter(X,Y)
 _Pista_: El color depende del ángulo que forma el vector (X,Y) con los ejes. Hay diversas formas de calcularlo.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (6 Estilos de codeo)](06_Estilo.md) \| [Próximo (8 Cierre de la clase)](08_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (6 Estilos de codeo)](06_Estilo.md)
 

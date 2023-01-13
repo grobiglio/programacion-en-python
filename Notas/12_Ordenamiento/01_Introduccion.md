@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Próximo (2 Ordenamientos sencillos de listas)](02_Ordenamiento_sencillo.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Próximo (2 Ordenamientos sencillos de listas)](02_Ordenamiento_sencillo.md)
 
 # 12.1 Introducción
 

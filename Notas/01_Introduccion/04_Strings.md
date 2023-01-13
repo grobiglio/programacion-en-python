@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Números)](03_Numeros.md) \| [Próximo (5 Listas)](05_Listas.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Anterior (3 Números)](03_Numeros.md) \| [Próximo (5 Listas)](05_Listas.md)
 
 # 1.4 Cadenas
 
@@ -333,7 +333,7 @@ Probá algunas más:
 >>> frutas
 ?
 >>> nombre = '   Naranja   \n'
->>> nombre = nombre.strip()    # Remove surrounding whitespace
+>>> nombre = nombre.strip()    # Quita los espacios en blanco en los extremos
 >>> nombre
 ?
 >>>

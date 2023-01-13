@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Un primer programa)](02_Hello_world.md) \| [Próximo (4 Cadenas)](04_Strings.md)
+:white_check_mark: [Contenidos](../Contenidos.md) \| [Anterior (2 Un primer programa)](02_Hello_world.md) \| [Próximo (4 Cadenas)](04_Strings.md)
 
 # 1.3 Números
 
@@ -118,7 +118,7 @@ Los números de tipo floats son representados en la máquina como números de do
 Para los que los conozcan: es el mismo tipo que los `double` en el lenguaje C.
 
 > Un `float` almacenan hasta 17 digitos con un
-> exponente entre -308 to 308
+> exponente entre -308 y 308
 
 Cuidado que la aritmética de los números de punto flotante no es exacta.
 
@@ -280,7 +280,7 @@ Meses:  310
 ### Ejercicio 1.11: Bonus
 Ya que estamos, corregí el código anterior de forma que el pago del último mes se ajuste a lo adeudado.
 
-Asegurate de guardar en el archivo  `hipoteca.py` esta última versión en tu directorio `ejercicios_python/Clase01/`. Vamos a volver a trabajar con él.
+Asegurate de guardar en el archivo `hipoteca.py` esta última versión en tu directorio `ejercicios_python/Clase01/`. Vamos a volver a trabajar con él.
 
 ### Ejercicio 1.12: Un misterio
 Las funciones `int()` y `float()` pueden usarse para convertir números. Por ejemplo,
